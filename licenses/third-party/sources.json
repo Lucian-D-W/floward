@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-26",
+  "files": {
+    "raw/alloc-stdlib-BSD-3-Clause.txt": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae",
+    "raw/defmt-Apache-2.0.txt": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+    "raw/defmt-MIT.txt": "0d17b75c1867fd568bcbb735f329d0d4253846c4b756a65e4d440c1e4bd59187",
+    "raw/MPL-2.0.txt": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172",
+    "raw/react-remove-scroll-bar-MIT.txt": "a79aae0c0f21990d9d963bb3c5a79cdcea9a46f8523ba55c58d7fe776b6ebc84",
+    "raw/tauri-MIT.txt": "9dd42ea92cff2ede5cd477cbfcce051b2d0115c0ac7f368ee88cb545055dff1d",
+    "raw/tauri-plugin-wallpaper-MIT-standard.txt": "9645fb6e878aebd5e959be648a71973a108d4aa0d18eee478d0579066ad99958",
+    "raw/unic-Apache-2.0.txt": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+    "raw/unic-MIT.txt": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+    "raw/wallpaper-Unlicense.txt": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+    "raw/webview2-MIT.txt": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+  },
+  "packages": {
+    "npm:react-remove-scroll-bar@2.3.8": {
+      "license": "MIT",
+      "files": [
+        "raw/react-remove-scroll-bar-MIT.txt"
+      ],
+      "sources": [
+        "https://registry.npmjs.org/react-remove-scroll-bar/2.3.8",
+        "https://github.com/theKashey/react-remove-scroll-bar/blob/7301c160fda44cb8cf2b9fdfde61efad35736196/LICENSE"
+      ],
+      "note": "npm 包声明 MIT，发行包未附 LICENSE；npm gitHead b3b1287aad81def2e2ae707274b74531b61ddbaf 当前无法在上游解析。此正文来自作者补加 LICENSE 的明确提交，未冒称属于该 gitHead。",
+      "attribution": ""
+    },
+    "cargo:alloc-stdlib@0.2.4": {
+      "license": "BSD-3-Clause",
+      "files": [
+        "raw/alloc-stdlib-BSD-3-Clause.txt"
+      ],
+      "sources": [
+        "https://github.com/dropbox/rust-alloc-no-stdlib/blob/ae42d22078b98549e987d2f03d12df7b984fde47/LICENSE"
+      ],
+      "note": "",
+      "attribution": ""
+    },
+    "cargo:defmt-parser@1.0.0": {
+      "license": "MIT OR Apache-2.0",
+      "files": [
+        "raw/defmt-MIT.txt",
+        "raw/defmt-Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/knurling-rs/defmt/blob/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT",
+        "https://github.com/knurling-rs/defmt/blob/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE"
+      ],
+      "note": "",
+      "attribution": ""
+    },
+    "cargo:selectors@0.36.1": {
+      "license": "MPL-2.0",
+      "files": [
+        "raw/MPL-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/servo/stylo/blob/635e1a19d02960588a00e189bd4bd5bdb150ec3d/selectors/lib.rs",
+        "https://www.mozilla.org/en-US/MPL/2.0/"
+      ],
+      "note": "本版本源文件标注 MPL-2.0 并指向 Mozilla 标准正文。上游仓库镜像未附独立 MPL 文本；此处补上标准全文，原源码声明保留。",
+      "attribution": ""
+    },
+    "cargo:tauri-plugin@2.6.3": {
+      "license": "Apache-2.0 OR MIT",
+      "files": [
+        "raw/tauri-MIT.txt"
+      ],
+      "sources": [
+        "https://github.com/tauri-apps/tauri/blob/6f6ab1207bb3923c2721fbc67d2fdb1c8deb0c7a/LICENSE_MIT"
+      ],
+      "note": "此项按上游双许可中允许的 MIT 条款分发；保留上游 Apache-2.0 OR MIT 的许可标识。",
+      "attribution": ""
+    },
+    "cargo:tauri-plugin-wallpaper@4.0.0": {
+      "license": "MIT",
+      "files": [
+        "raw/tauri-plugin-wallpaper-MIT-standard.txt"
+      ],
+      "sources": [
+        "https://github.com/meslzy/tauri-plugin-wallpaper/blob/867f97eedf64231df64c3f062f0fb6ceee6c9f4f/Cargo.toml",
+        "https://github.com/meslzy/tauri-plugin-wallpaper/blob/867f97eedf64231df64c3f062f0fb6ceee6c9f4f/readme.md",
+        "https://spdx.org/licenses/MIT.html"
+      ],
+      "note": "上游锁定提交声明 MIT、作者字段为 Meslzy，未提供独立许可文件或版权行。此处附标准 MIT 正文，未填写或编造版权人、年份。本地修改见 vendor/tauri-plugin-wallpaper/FLOWARD-PATCHES.md。",
+      "attribution": "Upstream author field: Meslzy (not a substituted copyright notice)."
+    },
+    "cargo:unic-char-property@0.9.0": {
+      "license": "MIT/Apache-2.0",
+      "files": [
+        "raw/unic-MIT.txt",
+        "raw/unic-Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE"
+      ],
+      "note": "MIT 正文及版权行按上游与本地发行包源文件保留；没有补造上游缺失的 COPYRIGHT 文件。",
+      "attribution": "Copyright 2017 The UNIC Project Developers."
+    },
+    "cargo:unic-char-range@0.9.0": {
+      "license": "MIT/Apache-2.0",
+      "files": [
+        "raw/unic-MIT.txt",
+        "raw/unic-Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE"
+      ],
+      "note": "MIT 正文及版权行按上游与本地发行包源文件保留；没有补造上游缺失的 COPYRIGHT 文件。",
+      "attribution": "Copyright 2017 The UNIC Project Developers.\nCopyright 2018 The UNIC Project Developers."
+    },
+    "cargo:unic-common@0.9.0": {
+      "license": "MIT/Apache-2.0",
+      "files": [
+        "raw/unic-MIT.txt",
+        "raw/unic-Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE"
+      ],
+      "note": "MIT 正文及版权行按上游与本地发行包源文件保留；没有补造上游缺失的 COPYRIGHT 文件。",
+      "attribution": "Copyright 2017 The UNIC Project Developers."
+    },
+    "cargo:unic-ucd-ident@0.9.0": {
+      "license": "MIT/Apache-2.0",
+      "files": [
+        "raw/unic-MIT.txt",
+        "raw/unic-Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/8a6ce83063d90b91ae2ce59eddb803edd393fca9/LICENSE-MIT",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE"
+      ],
+      "note": "MIT 正文及版权行按上游与本地发行包源文件保留；没有补造上游缺失的 COPYRIGHT 文件。",
+      "attribution": "Copyright 2017 The UNIC Project Developers.\nCopyright 2017-2019 The UNIC Project Developers."
+    },
+    "cargo:unic-ucd-version@0.9.0": {
+      "license": "MIT/Apache-2.0",
+      "files": [
+        "raw/unic-MIT.txt",
+        "raw/unic-Apache-2.0.txt"
+      ],
+      "sources": [
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-MIT",
+        "https://github.com/open-i18n/rust-unic/blob/5878605364af97a3358368a6eaef02104af2e016/LICENSE-APACHE"
+      ],
+      "note": "MIT 正文及版权行按上游与本地发行包源文件保留；没有补造上游缺失的 COPYRIGHT 文件。",
+      "attribution": "Copyright 2017 The UNIC Project Developers."
+    },
+    "cargo:wallpaper@3.2.0": {
+      "license": "Unlicense",
+      "files": [
+        "raw/wallpaper-Unlicense.txt"
+      ],
+      "sources": [
+        "https://github.com/reujab/wallpaper.rs/blob/f11ac04e5dfc905d9fadd16b430b4d417c9a6a1d/unlicense"
+      ],
+      "note": "",
+      "attribution": ""
+    },
+    "cargo:webview2-com@0.38.2": {
+      "license": "MIT",
+      "files": [
+        "raw/webview2-MIT.txt"
+      ],
+      "sources": [
+        "https://github.com/wravery/webview2-rs/blob/b74dc5e2b394044bea5191052868ce7a106c202c/LICENSE"
+      ],
+      "note": "",
+      "attribution": ""
+    },
+    "cargo:webview2-com-macros@0.8.1": {
+      "license": "MIT",
+      "files": [
+        "raw/webview2-MIT.txt"
+      ],
+      "sources": [
+        "https://github.com/wravery/webview2-rs/blob/dffa41a8a46d3f5565eefbff2de57d38d399f158/LICENSE"
+      ],
+      "note": "",
+      "attribution": ""
+    },
+    "cargo:webview2-com-sys@0.38.2": {
+      "license": "MIT",
+      "files": [
+        "raw/webview2-MIT.txt"
+      ],
+      "sources": [
+        "https://github.com/wravery/webview2-rs/blob/b74dc5e2b394044bea5191052868ce7a106c202c/LICENSE"
+      ],
+      "note": "",
+      "attribution": ""
+    }
+  }
+}

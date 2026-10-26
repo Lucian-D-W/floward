@@ -1,0 +1,4 @@
+# Retained license originals are hashed; keep their bytes stable on Windows clones.
+licenses/third-party/raw/*.txt text eol=lf
+# The generated notice check compares canonical LF output.
+THIRD_PARTY_NOTICES.md text eol=lf

@@ -1,0 +1,24 @@
+[package]
+name = "floward"
+version = "2.0.0"
+edition = "2021"
+authors = ["Lucian W. (lucian-d-w)"]
+license = "GPL-3.0-only"
+description = "顺水意流 / floward：本地离线的纵向行动图"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.38", features = ["bundled", "backup"] }
+uuid = { version = "1", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+rfd = "0.17"
+tauri-plugin-wallpaper = { path = "../vendor/tauri-plugin-wallpaper" }
+tauri-plugin-single-instance = "2"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.61", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_Graphics_Gdi", "Win32_UI_Input_KeyboardAndMouse"] }
